@@ -4,7 +4,16 @@
 This repository implements a complete motion-control pipeline for a **3-DOF robotic arm**, covering **forward kinematics**, **analytical inverse kinematics**, and **Cartesian-space trajectory planning**.  
 The system enables smooth, repeatable **pick-and-place operations**, with validation in MATLAB and real-time execution on Arduino hardware.
 
-The project was developed as part of **ELEC0129 – Introduction to Robotics**, with emphasis on mathematical correctness, physical validation, and embedded implementation.
+## Demonstrations
+
+<p align="center">
+  <img src="gif/ezgif.com-speed.gif" width="450">
+</p>
+
+<p align="center">
+  <img src="gif/robotic_arm-ezgif.com-optimize.gif" width="450">
+</p>
+
 
 ---
 
@@ -98,11 +107,6 @@ Limitations identified include gravity-induced deflection and residual jerk inhe
 - MATLAB (kinematics, simulation, validation)  
 - Arduino (real-time control)  
 - Servo motor actuation  
-
----
-
-## Team
-Team 6 – ELEC0129 Introduction to Robotics
 
 ---
 
